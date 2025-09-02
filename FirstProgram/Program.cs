@@ -1,7 +1,5 @@
-﻿// while loop
-string name = "";
-while (name == "")
+﻿// for loop
+for (int i = 0; i < 5; i++)
 {
-    name = Console.ReadLine();
-    Console.WriteLine(name != "" ? "your name is " + name : "Please enter a valid name:");
+    Console.WriteLine("vua vanh dai " + i);
 }
