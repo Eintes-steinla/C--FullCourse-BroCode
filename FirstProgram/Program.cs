@@ -1,16 +1,9 @@
-﻿// type casting
-string a = "1";
-int b = Convert.ToInt32(a);
-double c = Convert.ToInt32(a);
-char d = Convert.ToChar(a); 
-string s = "true";
-bool e = Convert.ToBoolean(s);
-string f = Convert.ToString(a);
+﻿// user input
 
-Console.WriteLine(b.GetType());
-Console.WriteLine(c.GetType());
-Console.WriteLine(d.GetType());
-Console.WriteLine(e.GetType());
-Console.WriteLine(f.GetType());
+Console.WriteLine("what is your name?");
+string name = Console.ReadLine();
+Console.WriteLine("Hello, " + name + "!");
 
-
+Console.WriteLine("How old are you?");
+int age = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("You are " + age + " years old.");
