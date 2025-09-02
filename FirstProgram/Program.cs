@@ -1,22 +1,16 @@
-﻿// string method
-
-string fullName = "Nguyen Bao Minh";
-Console.WriteLine(fullName);
-
-fullName = fullName.ToUpper();
-Console.WriteLine(fullName);
-
-fullName = fullName.ToLower();
-Console.WriteLine(fullName);
-
-string phoneNumber = "0123-456-789";
-phoneNumber = phoneNumber.Replace("-", "");
-Console.WriteLine(phoneNumber);
-
-fullName = fullName.Insert(0, "Mr. ");
-Console.WriteLine(fullName);
-
-Console.WriteLine(fullName.Length);
-
-string firstName = fullName.Substring(4, 6);
-Console.WriteLine(firstName);
+﻿// if statements
+int a;
+Console.WriteLine("Enter a number:");
+a = Convert.ToInt32(Console.ReadLine());
+if (a > 5)
+{
+    Console.WriteLine("a is greater than 5");
+}
+else if (a == 5)
+{
+    Console.WriteLine("a is equal to 5");
+}
+else
+{
+    Console.WriteLine("a is less than 5");
+}
